@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login and Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="shape"></div>
+        <div class="shape-2"></div>
+        <div class="form login-form">
+            <div class="animate" style="--out:01; --in:19"><h1>Login</h1></div>
+            <form action="#">
+                <div class="input-area animate" style="--out:1; --in:20">
+                    <input type="text" id="username" name="username" autocomplete="off" required>
+                    <label for="username">Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-area animate" style="--out:2; --in:21">
+                    <input type="password" id="password" name="password" autocomplete="off" required>
+                    <label for="password">Password</label>
+                    <i class="bx bxs-lock"></i>
+                </div>
+                <div class="input-area animate" style="--out:3; --in:22">
+                    <button class="btn" type="submit">Login</button>
+                </div>
+                <div class="register-link animate" style="--out:4; --in:23">
+                    <p>
+                        Dont't have an account?
+                        <a href="#" class="sign-up-link">Sign Up</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div class="login-info">
+            <h1 class="animate" style="--out:1; --in:21">WELCOME BACK!!</h1>
+            <p class="animate" style="--out:2; --in:22">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="form register-form">
+            <div class="animate" style="--out:0; --in:21"><h1>Register</h1></div>
+            <form action="#">
+                <div class="input-area animate" style="--out:1; --in:22">
+                    <input type="text" id="username" name="username" autocomplete="off" required>
+                    <label for="username">Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-area animate" style="--out:2; --in:23">
+                    <input type="text" id="email" name="email" autocomplete="off" required>
+                    <label for="email">Email</label>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+                <div class="input-area animate" style="--out:3; --in:24">
+                    <input type="password" id="password" name="password" autocomplete="off" required>
+                    <label for="password">Password</label>
+                    <i class="bx bxs-lock"></i>
+                </div>
+                <div class="input-area animate" style="--out:4; --in:25">
+                    <button class="btn" type="submit">Register</button>
+                </div>
+                <div class="register-link animate" style="--out:5; --in:26">
+                    <p>
+                        Already have an account?
+                        <a href="#" class="sign-in-link">Sign In</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div class="register-info">
+            <h1 class="animate" style="--out:1; --in:21">WELCOME BACK!!</h1>
+            <p class="animate" style="--out:2; --in:22">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
